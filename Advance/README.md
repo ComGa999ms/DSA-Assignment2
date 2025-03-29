@@ -74,7 +74,7 @@ Dễ dàng thấy đây là một bài toán chia kẹo euler như sau, ta có:
 - $x_1 + x_2 + x_3 + .... + x_n = N$
 - $0 \leq x_i \leq N$ (mỗi số $i$ có tối đa $N$ số).
 
-Thì đáp án của bài toán sẽ là nghiệm không âm của phương trình trên 
+Thì đáp án của bài toán sẽ là nghiệm không âm của phương trình trên là:
 $$
 \binom{N + N - 1}{N} = \binom{2N - 1}{N}
 $$

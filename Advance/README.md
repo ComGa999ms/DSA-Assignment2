@@ -74,10 +74,9 @@ Dễ dàng thấy đây là một bài toán chia kẹo euler như sau, ta có:
 - $x_1 + x_2 + x_3 + .... + x_n = N$
 - $0 \leq x_i \leq N$ (mỗi số $i$ có tối đa $N$ số).
 
-Thì đáp án của bài toán sẽ là nghiệm không âm của phương trình trên là:
-$$
-\binom{N + N - 1}{N} = \binom{2N - 1}{N}
-$$
+Thì đáp án của bài toán sẽ là nghiệm không âm của phương trình trên là: $C(N + N - 1, N) = C(2N - 1, N)$
+
+
 Nhưng ở đây vấn đề là đề cho $a_i \leq 10^{10}$ nên chúng ta phải dùng định lí [Lucas](https://wiki.vnoi.info/translate/he/Lucas-theorem) để tính.
 ```C++
 // Biểu diễn số N dưới dạng cơ số MOD

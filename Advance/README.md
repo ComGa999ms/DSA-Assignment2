@@ -39,7 +39,7 @@ Khác với bài trên ở bài này $|S|, |T| \leq 10^6$ nên chúng ta phải 
 
 Lúc này sẽ chia được 2 đội thỏa mãn khi và chỉ khi:
 - $s1 \leq 2k$  
-- $k \leq s1 + s2$ 
+- $2k \leq s1 + s2$ 
 ## Vượt mức Pickleball v2 (time limit: 0.5s)
 Dùng mảng ```cnt``` duy trì tần xuất giá trị xuất hiện trong đoạn có độ dài là $d$. 
 
